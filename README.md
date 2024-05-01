@@ -231,13 +231,20 @@ To develop a program that calculates the minimum value between two floating-poin
 
 ### ALGORITHM:
 1. Begin the program.
+
 2. Declare variables `a` and `b` of type float to store the input floating-point numbers.
+
 3. Prompt the user to input two floating-point numbers separated by space.
+
 4. Read the input values for `a` and `b` using `scanf()` function.
+
 5. Use the ternary conditional operator `(a < b) ? ... : ...` to compare `a` and `b`:
+
    i) If `a` is less than `b`, print "Minimum between \<a\> and \<b\> is \<a\>" using `printf()` function with formatting specifier "%.3f" to display the minimum value `a` with three decimal places.
+
    ii) If `b` is less than `a`, print "Minimum between \<a\> and \<b\> is \<b\>" using `printf()` function with formatting specifier "%.3f" to display the minimum value `b` with three decimal places.
-6. End the program.
+
+7. End the program.
 
 ## PROGRAM:
 ``` 
@@ -281,11 +288,11 @@ Thus the required program is written and executed successfully.
 
 5. Use nested if-else statements to compare the three integers:
 
-i) If `r` is greater than both `p` and `k`, print "Maximum Number is \<r\>" using `printf()` function.
+    i) If `r` is greater than both `p` and `k`, print "Maximum Number is \<r\>" using `printf()` function.
 
-ii) Else, if `p` is greater than both `r` and `k`, print "Maximum Number is \<p\>" using `printf()` function.
+    ii) Else, if `p` is greater than both `r` and `k`, print "Maximum Number is \<p\>" using `printf()` function.
 
-iii) Otherwise, print "Maximum Number is \<k\>" using `printf()` function.
+    iii) Otherwise, print "Maximum Number is \<k\>" using `printf()` function.
 
 6. End the program.
 
