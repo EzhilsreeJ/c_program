@@ -19,10 +19,6 @@ To develop a C program to display the ASCII value of a given character.
 ## PROGRAM:
 ``` 
 
-'''
-Developed by:Ezhil sree J 
-RegisterNumber: 212223230056
-'''
 #include<stdio.h>
 int main()
 {
