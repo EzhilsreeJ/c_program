@@ -131,17 +131,29 @@ To develop a program that compares two integer inputs and informs whether they a
 
 ### ALGORITHM:
 1. Begin the program.
+
 2. Declare two variables `a` and `b` of type int to store the integer inputs.
+
 3. Prompt the user to input two integers.
+
 4. Read the integer inputs using `scanf()` function and store them in variables `a` and `b`.
+
 5. Use an if-else statement to check if `a` is not equal to `b`.
+
    i) If `a` is not equal to `b`, execute the following steps:
-      Print "A is not equal to B".
+
+     Print "A is not equal to B".
+
       Use nested if-else statements to determine which integer is larger:
-        If `a` is greater than `b`, print "A is larger than B".
-        If `b` is greater than `a`, print "B is larger than A".
+
+         If `a` is greater than `b`, print "A is larger than B".
+
+         If `b` is greater than `a`, print "B is larger than A".
+
+
    ii) If `a` is equal to `b`, print "A is equal to B".
-6. End the program.
+
+7. End the program.
 
 ## PROGRAM:
 ``` 
@@ -362,7 +374,7 @@ int main()
 
 
 ## OUTPUT :
-![image](https://github.com/EzhilsreeJ/c_program/assets/144870412/66a1eb0e-e983-4f9f-807f-afd4acf3a01c)
+![image](https://github.com/EzhilsreeJ/c_program/assets/144870412/5bd63809-1da7-459c-8faf-e16cd77495ab)
 
 
 
