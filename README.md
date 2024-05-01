@@ -272,13 +272,21 @@ Thus the required program is written and executed successfully.
 
 ### ALGORITHM:
 1 Begin the program.
+
 2. Declare variables `r`, `p`, and `k` of type int to store the input integers.
+
 3. Prompt the user to input three integers.
+
 4. Read the input values for `r`, `p`, and `k` using `scanf()` function.
+
 5. Use nested if-else statements to compare the three integers:
+
 i) If `r` is greater than both `p` and `k`, print "Maximum Number is \<r\>" using `printf()` function.
+
 ii) Else, if `p` is greater than both `r` and `k`, print "Maximum Number is \<p\>" using `printf()` function.
+
 iii) Otherwise, print "Maximum Number is \<k\>" using `printf()` function.
+
 6. End the program.
 
 ## PROGRAM:
@@ -324,7 +332,7 @@ Thus the required program is written and executed successfully.
    3. Prompt the user to input their age.
    4. Read the input value for `age` using `scanf()` function.
    5. Use an if statement to check if the `age` is greater than or equal to 18:
-      - If true, print "She is eligible for marriage" using `printf()` function.
+      i) If true, print "She is eligible for marriage" using `printf()` function.
    6. End the program.
 ## PROGRAM:
 ``` 
