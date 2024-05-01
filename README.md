@@ -1,66 +1,47 @@
-# c_program
-# Gaussian Elimination
+## EXPERIMENT-1-CHARACTER TO ASCII CONVERTER
 
-## AIM:
-To write a program to find the solution of a matrix using Gaussian Elimination.
+### AIM:
+To develop a C program to display the ASCII value of a given character.
 
-## Algorithm
-1. Import the numpy module to use the built-in functions for calculation.
+### ALGORITHM:
+1. Start the program execution.
 
-2. Import the sys module to use the built-in functions.
+2. Declare a variable `i` of type char to store the input character.
 
-3. Get input from the user for number of rows and add it by 1 for number of columns.
+3. Prompt the user to input a character.
 
-4. Using np.zeros() set the matrix as null matrix.
+4. Read the character input using `scanf()` function and store it in the variable `i`.
 
-5. Using nested for loop get input from the user for each element in the matrix.
+5. Print the message "ASCII value of \<character\> is \<ASCII value\>" using `printf()` function, where \<character\> is the input character and \<ASCII value\> is its corresponding ASCII value obtained by printing `i` as an integer.
 
-6. Using nested for loop find the ratio and perform the elementary row operations and find the final matrix.
+6. End the program.
 
-7. Use back substitution method to find the value of the variables and print it.
+## PROGRAM:
+``` 
 
-8. End the program
- 
-
-## Program:
-```py 
-
-'''Program to solve a matrix using Gaussian elimination without partial pivoting.
-Developed by:Ezhil sree J 
-RegisterNumber: 23012968
 '''
-import numpy as np
-import sys
-n=int(input())
-a=np.zeros((n,n+1))
-x=np.zeros(n)
-for i in range(n):
-    for j in range(n+1):
-        a[i][j]=float(input())
-for i in range(n):
-    if a[i][i]==0.0:
-        sys.exit('Divide by zero detected')
-    for j in range(i+1,n):
-        ratio=a[j][i]/a[i][i]
-        for k in range(n+1):
-            a[j][k]=a[j][k]-ratio*a[i][k]
-x[n-1]=a[n-1][n]/a[n-1][n-1]
-for i in range(n-2,-1,-1):
-    x[i]=a[i][n]
-    for j in range(i+1,n):
-        x[i]=x[i]-a[i][j]*x[j]
-    x[i]=x[i]/a[i][i]
-for i in range(n):
-    print('X%d = %0.2f'%(i,x[i]),end=' ')
+Developed by:Ezhil sree J 
+RegisterNumber: 212223230056
+'''
+#include<stdio.h>
+int main()
+{
+    char i;
+    scanf("%c",&i);
+    printf("ASCII value of %c is %d",i,i);
+}
         
 
 ```
+## SAMPLE OUTPUT :
 
-## Output:
-![gaussian elimination](image.png)
+![image](https://github.com/EzhilsreeJ/c_program/assets/144870412/afbb8bcb-cd44-4024-8959-ff2248ba1857)
+
+## OUTPUT :
+![image](https://github.com/EzhilsreeJ/c_program/assets/144870412/d9148b49-24e5-4cdf-8e9e-3375c88eeeca)
 
 
 
-## Result:
-Thus the program to find the solution of a matrix using Gaussian Elimination is written and verified using python programming.
+## RESULT:
+Thus the required program is written and executed successfully.
 
