@@ -345,7 +345,7 @@ Thus the required program is written and executed successfully.
 
  **AIM:**
     
-    To determine if a person is eligible for marriage based on their age.
+To determine if a person is eligible for marriage based on their age.
 
 **ALGORITHM:**
    1. Begin the program.
