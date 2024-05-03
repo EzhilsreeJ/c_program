@@ -341,9 +341,10 @@ int main()
 Thus the required program is written and executed successfully.
 
 
-## EXPERIMENT-8-ELIGIBILITY FOR MARRIAGE**
+## EXPERIMENT-8-ELIGIBILITY FOR MARRIAGE
 
  **AIM:**
+    
     To determine if a person is eligible for marriage based on their age.
 
 **ALGORITHM:**
