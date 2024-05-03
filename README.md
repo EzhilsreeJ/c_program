@@ -265,7 +265,8 @@ int main()
 {
     float a,b;
     scanf("%f %f",&a,&b);
-    (a < b) ? printf("Minimum between %.3f and %.3f is %.3f",a,b,a):printf("Minimum between %.3f and %.3f is %.3f",a,b,b);
+    (a < b) ? printf("Minimum between %.3f and %.3f is %.3f",a,b,a):
+    printf("Minimum between %.3f and %.3f is %.3f",a,b,b);
 }
 ```
 ## SAMPLE OUTPUT :
